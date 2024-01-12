@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/framework.css" />
+  <link rel="stylesheet" href="css/master.css" />
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div class="page d-flex">
+
+    <div class="sidebar bg-white p-20 p-relative">
+
+      <h3 class="p-relative txt-c mt-0">MED</h3>
+      <ul>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="header bg-white d-flex">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Type a Keyword">
+        </div>
+
+        <div class="left-div">
+          <div>
+            <i class="fa-regular fa-bell"></i>
+            <div class="bill-red"></div>
+          </div>
+          <div class="profile">
+            <img src="img/avatar.png" alt="">
+          </div>
+        </div>
+
+
+      </div>
+      <div class="settings">
+        <h1 class="page-name">Settings</h1>
+        <div class="wrapper d-grid gap-20">
+          <!-- start site control -->
+          <div class="site-control -  bg-white rad-10 text-c-mobile block-mobile">
+            <h2>Site Control</h2>
+            <p>Control The Website If There Is Maintenance</p>
+            <div class="description">
+              <div>
+                <span>Website Control</span>
+                <p>Open/Close Website And Type The Reason</p>
+              </div>
+
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked>
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+            <textarea placeholder="Close Message content"></textarea>
+          </div>
+          <!-- end site control -->
+
+          <!-- start site control -->
+          <div class="general-info   bg-white rad-10 text-c-mobile block-mobile">
+            <h2>General Info</h2>
+            <p>General Information About Your Account</p>
+            <label for="firstName">
+              First Name
+              <input id="firstName" placeholder="First Name" type="text">
+            </label>
+            <label for="lastName">
+              Last Name
+              <input id="lastName" placeholder="Last Name" type="text">
+            </label>
+            <label for="email">
+              Email
+              <div>
+                <input id="email" type="email" disabled placeholder="ameur.meddz@gmail.com">
+                <a href="" class="c-blue">Change</a>
+              </div>
+            </label>
+
+          </div>
+          <!-- end site control -->
+          <!-- start security info -->
+          <div class="security-info  bg-white rad-10 text-c-mobile block-mobile">
+            <h2>Security Info</h2>
+            <p>Security Information About Your Account</p>
+
+            <div class="description password">
+              <div>
+                <span>Password</span>
+                <p>Last Change On 25/10/2021</p>
+              </div>
+
+              <div>
+                <a href="profile.html" class="visit d-block fs-14 bg-blue c-white w-fit btn-shape">Profile</a>
+
+              </div>
+            </div>
+
+
+            <div class="description two-fact">
+              <div>
+                <span>Two-Factor Authentication</span>
+                <p>Enable/Disable The Feature</p>
+              </div>
+
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked>
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+
+            <div class="description devies">
+              <div>
+                <span>Devices</span>
+                <p>Check The Login Devices List</p>
+              </div>
+
+                <div class="time">
+                  <span>Devices</span>
+                </div>
+            </div>
+
+
+          </div>
+          <!-- end security info -->
+          <!-- start widget control -->
+          <div class="widget-control  bg-white rad-10 text-c-mobile block-mobile">
+            <h2>Widgets Control</h2>
+            <p class="c-gray">Show/Hide Widgets</p>
+
+            <div class="control">
+              <input type="checkbox" id="one">
+              <label for="one">Quick Draft</label>
+            </div>
+
+            <div class="control">
+              <input type="checkbox" id="two">
+              <label for="two">Yearly Targets</label>
+            </div>
+
+            <div class="control">
+              <input type="checkbox" checked id="three">
+              <label for="three">Tickets Statistics</label>
+            </div>
+
+            <div class="control">
+              <input type="checkbox" checked id="four">
+              <label for="four">Latest News</label>
+            </div>
+
+            <div class="control">
+              <input type="checkbox" id="five">
+              <label for="five">Latest Tasks</label>
+            </div>
+
+            <div class="control">
+              <input type="checkbox" checked id="six">
+              <label for="six">Top Search Items</label>
+            </div>
+
+
+
+
+
+          </div>
+          <!-- end widget control -->
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
+
+<!--
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked>
+                  <div class="toggle-switch"></div>
+                </label>
+
+-->

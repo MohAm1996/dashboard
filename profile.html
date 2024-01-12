@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="page d-flex">
+
+        <div class="sidebar bg-white p-20 p-relative">
+
+            <h3 class="p-relative txt-c mt-0">MED</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="header bg-white d-flex">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Type a Keyword">
+                </div>
+
+                <div class="left-div">
+                    <div>
+                        <i class="fa-regular fa-bell"></i>
+                        <div class="bill-red"></div>
+                    </div>
+                    <div class="profile">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="profile">
+                <h1 class="page-name">Profile</h1>
+
+                <div class="container bg-white rad-10 text-c-mobile block-mobile">
+
+                    <div class="left-box">
+                        <img src="img/avatar.png" alt="">
+                        <h3>Ameur Ayoub</h3>
+                        <p>Level 15</p>
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star c-orange fs-13"></i> <i></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i> <i></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i> <i></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i> <i></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i> <i></i>
+
+                        </div>
+                        <p class="fs-13 c-gray">5500 rating</p>
+
+                    </div>
+
+
+
+
+                    <div class="right-box">
+
+                        <div class="box">
+                            <p class="c-gray">General Information</p>
+
+                            <div><p><span class="c-gray">Full Name:</span> Ameur Ayoub</p></div>
+                            <div><p><span class="c-gray">Gender:</span> Male</p></div>
+                            <div><p><span class="c-gray">Country:</span> Algeria</p></div>
+                            <div class="d-flex-j-c"><label>
+                                <input class="s-toggle-checkbox" type="checkbox" checked>
+                                <div class="s-toggle-switch"></div>
+                            </label></div>
+
+                        </div>
+
+
+                        <div class="box">
+                            <p class="c-gray">Personal Information</p>
+
+                            <div><p><span class="c-gray">Email:</span> ameur@gmail.com</p></div>
+                            <div><p><span class="c-gray">Phone:</span> 514-248-8578</p></div>
+                            <div><p><span class="c-gray">Date Of Birth:</span> 1996/06/19</p></div>
+                            <div class="d-flex-j-c"><label>
+                                <input class="s-toggle-checkbox" type="checkbox" checked>
+                                <div class="s-toggle-switch"></div>
+                            </label></div>
+
+                        </div>
+
+
+                        <div class="box">
+                            <p class="c-gray">Job Information</p>
+
+                            <div><p><span class="c-gray">Title:</span>Full stack developer</p></div>
+                            <div><p><span class="c-gray">Programming Language:</span> JavaScript</p></div>
+                            <div><p><span class="c-gray">Years Of Experience:</span> 3</p></div>
+                            <div class="d-flex-j-c"><label>
+                                <input class="s-toggle-checkbox" type="checkbox" checked>
+                                <div class="s-toggle-switch"></div>
+                            </label></div>
+
+                        </div>
+
+
+                        <div class="box">
+                            <p class="c-gray">Billing Information</p>
+
+                            <div><p><span class="c-gray">Payment Method:</span> Ameur Ayoub</p></div>
+                            <div><p><span class="c-gray">Email:</span> Male</p></div>
+                            <div><p><span class="c-gray">Subscription:</span> Monthly</p></div>
+                            <div class="d-flex-j-c"><label>
+                                <input class="s-toggle-checkbox" type="checkbox">
+                                <div class="s-toggle-switch"></div>
+                            </label></div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
