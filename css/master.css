@@ -1308,6 +1308,8 @@ ul {
 .course-box {
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .course-box .image{
     width: 100%;
@@ -1316,6 +1318,7 @@ ul {
 .course-box .image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
 }
 .course-box .avatar {
